@@ -1,6 +1,6 @@
 import React from 'react';
 
-//import './Basic.css';
+import './Basic.css';
 
 function Basic (props) {
     return (
