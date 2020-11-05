@@ -1,13 +1,11 @@
 import React from 'react';
 
-//import HelloWorld from './components/HelloWorld';
-//import Container from './components/Container';
-import Basic from './internetting/Basic';
+import Main from './box/Main';
 
 function App() {
   return (
     <>
-      <Basic />
+      <Main />
     </>
   );
 }
