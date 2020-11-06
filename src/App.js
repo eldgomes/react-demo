@@ -1,12 +1,11 @@
 import React from 'react';
 
-import Flexbox from './flexbox/Flexbox';
+import Responsive from './responsive/Responsive';
 
 function App() {
-  //anything added here is as good as adding in the body of an HTML page
   return (
     <>
-      <Flexbox />
+      <Responsive />
     </>
   );
 }
