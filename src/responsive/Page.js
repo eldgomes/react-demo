@@ -10,24 +10,24 @@ import './Page.css';;
 function Page (props) {
     return (
         <>
-            <div class='page'>
-                <div class='section menu'></div>
-                <div class='section header'>
+            <div className='page'>
+                <div className='section menu'></div>
+                <div className='section header'>
                     <img src={header}/>
                 </div>
-                <div class='section content'>
+                <div className='section content'>
                     <img src={content}/>
                 </div>
-                <div class='section sign-up'>
+                <div className='section sign-up'>
                     <img src={signUp}/>
                 </div>
-                <div class='section feature-1'>
+                <div className='section feature-1'>
                     <img src={feature}/>
                 </div>
-                <div class='section feature-2'>
+                <div className='section feature-2'>
                     <img src={feature}/>
                 </div>
-                <div class='section feature-3'>
+                <div className='section feature-3'>
                     <img src={feature}/>
                 </div>
             </div>
