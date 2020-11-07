@@ -40,3 +40,12 @@
   .feature-3 {
     background-color: #C8C6FA;
   }
+
+  .illustration {
+    width: 100%;
+  }
+
+  .illustration img {
+    width: 100%;
+    display: block;
+  }
