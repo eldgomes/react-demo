@@ -6,6 +6,7 @@ import illustrationSmall from '../images/responsive/illustration-small.png';
 import illustrationBig from '../images/responsive/illustration-big.png';
 import photoSmall from '../images/responsive/photo-small.jpg';
 import photoBig from '../images/responsive/photo-big.jpg';
+import photoTall from '../images/responsive/photo-tall.jpg';
 import signUp from '../images/responsive/sign-up.svg';
 import feature from '../images/responsive/feature.svg';
 
@@ -18,10 +19,13 @@ function Page (props) {
                 <div className='section menu'></div>
                 <div className='section header'>
                     <div class='photo'>
-                        <img src='images/photo-small.jpg'
-                            srcSet={`${photoBig} 2000w, ${photoSmall} 1000w`}
-                            sizes='(min-width: 960px) 960px,
-                                    100vw'/>
+                        <picture>
+                            <source media='(min-width: 401px)'
+                                    srcSet={`${photoBig}`}/>
+                            <source media='(max-width: 400px)'
+                                    srcSet={`${photoTall}`}/>
+                            <img src='images/photo-small.jpg'/>
+                        </picture>
                     </div>
                 </div>
                 <div className='section content'>
