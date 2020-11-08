@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Responsive from './responsive/Responsive';
+import Responsive from './hazira/Responsive';
 
 function App() {
   return (
