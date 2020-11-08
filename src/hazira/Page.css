@@ -1,0 +1,138 @@
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color: #dd719a;
+  height: 80px;
+  color: white;
+  font-size: 24px;
+}
+
+.logo {
+  background-color: white;
+  height: 520px;
+}
+
+.about {
+  background-color: #dd719a;
+  height: 450px;
+  display: block;
+}
+
+div.about-header {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 30px;
+}
+div.about-subtext {
+  color: white;
+  font-size: big;
+  text-align: center;
+  margin-top: 5px;
+}
+div.about-image {
+  margin-top: 30px;
+  text-align: center;
+}
+div.about-name {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+div.about-content {
+  color: white;
+  font-size: big;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.portfolio {
+  background-color: white;
+  height: 440px;
+  padding-bottom: 20px;
+}
+
+.portfolio-header {
+  background-color: white;
+  color: #dd719a;
+  height: 80px;
+  font-size: 32px;
+  text-align: left;
+}
+
+.portfolio-footer {
+  background-color: white;
+  color: #dd719a;
+  height: 80px;
+  font-size: 32px;
+  text-align: right;
+}
+
+div.wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 400px;
+}
+
+div.img.pic {
+  display: block;
+}
+
+.contact {
+  background-color: #dd719a;
+  height: 300px;
+  color: white;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+div.contact-header {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+div.contact-detail {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.footer {
+  background-color: white;
+  height: 60px;
+  color: #a7144c;
+  font-size: small;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
