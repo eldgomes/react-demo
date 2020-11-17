@@ -9,6 +9,7 @@ import five from '../images/hazira/five.jpg';
 import dp from '../images/hazira/dp.jpg';
 
 import Menu from './Menu';
+import Header from './Header';
 import About from './About';
 import PhotoGrid from './PhotoGrid';
 import Contacts from './Contacts';
@@ -21,6 +22,7 @@ function Page2 (props) {
         <>
             <div className='page2'>
                 <Menu />
+                <Header />
                 <About />
                 <PhotoGrid />
                 <Contacts />

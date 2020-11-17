@@ -9,6 +9,23 @@
 }
 
 .photo-grid-item {
-    color: white;
     font-size: 24px;
+}
+
+.grid-text {
+    display: block;
+    width:350px;
+    color: grey;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.img-wrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 350px;
+    margin-bottom: 10px;
+}
+  
+.pic {
+    display: block;
 }

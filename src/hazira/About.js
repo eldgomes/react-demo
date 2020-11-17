@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../images/hazira/logoMobile.jpg';
+import dp from '../images/hazira/dp.jpg';
 
 import './About.css';;
 
@@ -9,7 +9,7 @@ function About (props) {
         <>
             <div className='about-container'>
                 <div className='about-item'>
-                    <img src={logo} />
+                    <img className='dp' src={dp} />
                 </div>
             </div>
         </>
