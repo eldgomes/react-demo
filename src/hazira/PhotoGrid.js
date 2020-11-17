@@ -14,7 +14,7 @@ function PhotoGrid (props) {
             <div className='photo-grid-container'>
                 <div className='photo-grid-item'>
                     <div className='grid-text'>
-                        Check out some of our work...
+                        Check out some of my work...
                     </div>
                     <div className='img-wrapper'>
                         <img className='pic' src={one}/>
@@ -32,7 +32,7 @@ function PhotoGrid (props) {
                         <img className='pic' src={five}/>
                     </div>         
                     <div className='grid-text'>
-                        ...and more to follow. In the meantime feel free to check more on our Instagram page.
+                        ...and more to follow. In the meantime feel free to check more on my <a href={'https://instagram.com/goa_makeup_artist_hazira'} target="_blank">Instagram</a> page.
                     </div>           
                 </div>
             </div>
