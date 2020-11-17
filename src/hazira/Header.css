@@ -1,14 +1,15 @@
-/*menu*/  
-.menu-container {
+/*about*/  
+.header-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #dd719a;
+    background-color: white;
     padding: 20px 0;
 }
 
-.menu-item {
+.header-item {
     color: white;
     font-size: 24px;
+    background-color: white;
 }

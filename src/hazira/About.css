@@ -4,12 +4,16 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: yellow;
+    background-color:  #dd719a;
     padding: 20px 0;
 }
 
 .about-item {
     color: white;
     font-size: 24px;
-    background-color: turquoise;
+    /*background-color: turquoise;*/
+}
+
+.dp {
+    border-radius: 50%;
 }
