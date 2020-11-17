@@ -1,0 +1,14 @@
+/*contacts*/  
+.contacts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: yellow;
+    padding: 20px 0;
+}
+
+.contacts-item {
+    color: white;
+    font-size: 24px;
+}
