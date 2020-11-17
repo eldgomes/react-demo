@@ -1,0 +1,15 @@
+/*footer*/
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.footer-item {
+    color: #a7144c;
+    font-size: small;
+  }
+  

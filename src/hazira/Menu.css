@@ -1,0 +1,14 @@
+/*menu*/  
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: pink;
+    padding: 20px 0;
+}
+
+.menu-item {
+    color: white;
+    font-size: 24px;
+}
