@@ -15,9 +15,10 @@
 .grid-text {
     display: block;
     width:350px;
-    color: grey;
-    font-size: 20px;
+    color: rgb(88, 85, 85);
+    font-size: 18px;
     padding: 10px 0;
+    text-align: justify;
 }
 
 .img-wrapper {

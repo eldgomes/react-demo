@@ -6,12 +6,41 @@
     width: 100%;
     background-color:  #dd719a;
     padding: 20px 0;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    color: rgb(231, 222, 222);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 5px 0;
 }
 
 .about-item {
-    color: white;
+    color: rgb(231, 222, 222);
     font-size: 24px;
     /*background-color: turquoise;*/
+}
+
+.about-me {
+    display: block;
+    width:350px;
+    color: rgb(231, 222, 222);
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: justify;
 }
 
 .dp {

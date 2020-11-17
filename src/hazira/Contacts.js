@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons' 
 
 import './Contacts.css';;
 
@@ -6,11 +9,31 @@ function Contacts (props) {
     return (
         <>
             <div className='contacts-container'>
-                <div className='contacts-header'>Reach out to us at:</div>
-                <div className='contact-text'>hazirashaikh85@gmail.com</div>
-                <div className='contact-text'>+91 9123456789</div>
-                <div className='contact-text'>facebook.com/Haziramakeupartistgoa/</div>
-                <div className='contact-text'>instagram.com/goa_makeup_artist_hazira/</div>
+                
+                
+                <div className='contacts-header'>Reach out to me at:</div>
+                <a href="mailto:someone@yoursite.com">
+                    <div className='contact-text'>
+                        <FontAwesomeIcon icon={faEnvelope} className='icon-class'/>
+                        hazirashaikh85@gmail.com
+                    </div>
+                </a>
+                <div className='contact-text'>
+                    <FontAwesomeIcon icon={faPhone}  className='icon-class'/>
+                    +91 9123456789
+                </div>
+                <a href={'https://facebook.com/Haziramakeupartistgoa/'} target="_blank">
+                    <div className='contact-text'>
+                        <FontAwesomeIcon icon={faFacebook}  className='icon-class'/>
+                        Goa Makeup Artist Hazira
+                    </div>
+                </a>
+                <a href={'https://instagram.com/goa_makeup_artist_hazira'} target="_blank">
+                    <div className='contact-text'>
+                        <FontAwesomeIcon icon={faInstagram}  className='icon-class'/>
+                        Instagram
+                    </div>
+                </a>
             </div>
         </>
     );
