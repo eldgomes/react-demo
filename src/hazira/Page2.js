@@ -21,8 +21,6 @@ function Page2 (props) {
     return (
         <>
             <div className='page2'>
-                <Menu />
-                <Header />
                 <About />
                 <PhotoGrid />
                 <Contacts />

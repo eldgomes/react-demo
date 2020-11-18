@@ -7,7 +7,7 @@ function Menu (props) {
         <>
             <div className='menu-container'>
                 <div className='menu-item'>
-                    Makeovers by Hazira
+                    Goa Makeup and Hair Artist Hazira
                 </div>
             </div>
         </>
