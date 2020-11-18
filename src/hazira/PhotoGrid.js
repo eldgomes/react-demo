@@ -14,7 +14,7 @@ function PhotoGrid (props) {
             <div className='photo-grid-container'>
                 <div className='photo-grid-item'>
                     <div className='grid-text'>
-                        Check out some of my work...
+                        Portfolio
                     </div>
                     <div className='img-wrapper'>
                         <img className='pic' src={one}/>

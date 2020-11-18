@@ -1,6 +1,7 @@
 import React from 'react';
 
-import dp from '../images/hazira/dp.jpg';
+//import dp from '../images/hazira/dp.jpg';
+import dp2 from '../images/hazira/dp2.jpg';
 
 import './About.css';;
 
@@ -8,18 +9,19 @@ function About (props) {
     return (
         <>
             <div className='about-container'>
-                <div className='title'>Goa Makeup &amp; Artist Hazira</div>
-                <div className='sub-title'>Goa Makeup &amp; Artist Hazira</div>
+                <div className='title'>Goa Makeup and Hair Artist Hazira</div>
+                <div className='sub-title'>Makeovers by Hazira</div>
                 <div className='about-item'>
-                    <img className='dp' src={dp} />
+                    <img className='dp' src={dp2} />
                 </div>
-                <div className='name'>Hazira Shaikh</div>
+                <div className='name'>Hazira Sheikh</div>
                 <div className='about-me'>
-                    About me: Please write some content about you and ping me on watsapp.
-                    It could be anything relevant to what you do. Right now this is just placeholder text.
-                    3-4 lines should be perfect. Planning to roll out the first version before end of this week.
-                    Also send me a picture of you to be used here. 
-                    Also, let me know if there's anything specific you need for the first version.
+                    Hazira Sheikh, a highly talented soul with a fine set of skills has been around in the makeup
+                    industry for over 6 years and has gained much love from her clients and students. 
+                    Her perfection, precision, and finesse has turned many to be wed beautiful women into stunning 
+                    brides on their D-day. She has travelled across the globe spreading smiles and shimmer!!
+                    She is on a mission to make the world a naturally beautiful place with the notion of encouraging and 
+                    uplifting the young souls who share the same dream.
                 </div>
             </div>
         </>

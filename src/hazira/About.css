@@ -4,25 +4,25 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color:  #dd719a;
+    background-color:  white;
     padding: 20px 0;
     flex-direction: column;
 }
 
 .title {
-    color: white;
+    color: #dd719a;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
 .sub-title {
-    color: rgb(231, 222, 222);
+    color:grey;
     font-size: 12px;
     margin-bottom: 10px;
 }
 
 .name {
-    color: white;
+    color: grey;
     font-size: 20px;
     text-transform: uppercase;
     margin: 5px 0;
@@ -37,7 +37,7 @@
 .about-me {
     display: block;
     width:350px;
-    color: rgb(231, 222, 222);
+    color: grey;
     font-size: 16px;
     padding: 10px 0;
     text-align: justify;

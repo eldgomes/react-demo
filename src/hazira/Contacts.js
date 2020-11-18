@@ -12,7 +12,7 @@ function Contacts (props) {
                 
                 
                 <div className='contacts-header'>Reach out to me at:</div>
-                <a href="mailto:someone@yoursite.com">
+                <a href="mailto:hazirashaikh85@gmail.com">
                     <div className='contact-text'>
                         <FontAwesomeIcon icon={faEnvelope} className='icon-class'/>
                         hazirashaikh85@gmail.com
@@ -31,7 +31,7 @@ function Contacts (props) {
                 <a href={'https://instagram.com/goa_makeup_artist_hazira'} target="_blank">
                     <div className='contact-text'>
                         <FontAwesomeIcon icon={faInstagram}  className='icon-class'/>
-                        Instagram
+                        Makeovers by Hazira
                     </div>
                 </a>
             </div>
